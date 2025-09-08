@@ -9,7 +9,7 @@
 #include <stdexcept>
 
 constexpr WORD ZIP_SIGNATURE = 0x4B50;
-const std::wstring ACTION_URL = L"https://nightly.link/Fedoraware/Fedoraware/workflows/msbuild/main/Fedoraware.zip";
+const std::wstring ACTION_URL = L"https://nightly.link/rei-2/Amalgam/workflows/msbuild/master/Amalgamx64ReleaseAVX2.zip";
 
 // Retrieves the Fware binary from web/disk
 Binary GetBinary(const LaunchInfo& launchInfo)
