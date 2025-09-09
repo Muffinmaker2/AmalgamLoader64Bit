@@ -1,22 +1,18 @@
-# Fedoraloader
+# Amalgamloader
 
-[![Downloads](https://img.shields.io/github/downloads/Fedoraware/Fedoraloader/total?style=for-the-badge&logo=github&color=blue)](https://github.com/Fedoraware/Fedoraloader/releases/latest)
 
-Fedoraloader is an easy-to-use loader for the free and open-source training software [Fedoraware](https://github.com/Fedoraware/Fedoraware).
-It automatically downloads and injects the latest Fedoraware build into Team Fortress 2.
-Optionally, Fedoraloader can also restart Steam and inject a VAC-Bypass to prevent bans.
+Amalgamloader is an easy-to-use loader for the free and open-source training software [Amalgam](https://github.com/rei-2/Amalgam).
+It automatically downloads and injects the latest Amalgam build into Team Fortress 2.
+Optionally, Amalgamloader can also restart Steam and inject a VAC-Bypass to prevent bans.
 
-This is a complete rewrite of Fedoraloader in C++20 that focuses on fixing previous issues and making the injection process as streamlined as possible.
+This is a port of Fedoraloader.
 The old version was written in C# and can be found [here](https://github.com/Fedoraware/Fedoraloader-Legacy).
 
 > [!NOTE]  
 > VAC-Bypass is enabled by default and might cause issues with other games such as CS2 and Dota.
 
 ## Usage
-
-- Run Fedoraloader as administrator
-- Right click on the tray icon to open the menu
-- Click **Load** or **Load + Exit**
+Non Right now cause i cant figure out why it fails on inject yet(i suppose it has something todo with the 64bit change of tf2)
 
 ![Preview](.github/assets/Preview.png)
 
@@ -31,7 +27,7 @@ Download and install the [Microsoft Visual C++ Redistributable](https://aka.ms/v
 No, the loader will automatically download the latest Fedoraware build every time.
 You only need to re-download the loader if a significant change has been made to it.
 
-### Why did Fedoraloader disappear?
+### Why did Amalgamloader disappear?
 
 You need to add the loader file to your antivirus' exception list or disable it completely.
 This is a false positive due to the nature of injectors and their similarity to malware.
@@ -43,7 +39,7 @@ This service allows us to download the file without requiring a GitHub account.
 
 ## Options
 
-Fedoraloader allows some options to be set via command line arguments.
+Amalgamloader allows some options to be set via command line arguments.
 To use them, create a shortcut to the loader and add the arguments to the target field.
 
 | Argument | Description |
